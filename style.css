@@ -1,0 +1,15 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.bg-box{
+  margin: 50px auto;
+  background-color: green;
+  width: 800px;
+  height: 600px;
+  background-image: url(./img/grass.png), url(./img/lightbulbs.png), url(./img/abrigan.png),  url(./img/donut.png), url(./img/domik.webp);
+  background-size: 200px, 50px, 50px, 50px, 400px;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y, no-repeat;
+  background-position: bottom, top, left, right, center;
+}
